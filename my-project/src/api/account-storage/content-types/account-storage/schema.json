@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "account_storages",
+  "info": {
+    "singularName": "account-storage",
+    "pluralName": "account-storages",
+    "displayName": "Account Storage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}
